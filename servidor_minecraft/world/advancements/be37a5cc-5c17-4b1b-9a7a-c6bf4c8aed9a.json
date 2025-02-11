@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-11 22:09:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-02-11 22:17:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/distant_lands": {
+    "criteria": {
+      "minecraft:snowy_beach": "2025-02-11 22:17:55 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:player/end_teleport": {
+    "criteria": {
+      "s3": "2025-02-11 22:17:54 +0000"
+    },
+    "done": false
+  },
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2025-02-11 22:17:54 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
