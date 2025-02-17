@@ -353,3 +353,41 @@
 [22:17:14] [Server thread/INFO]: IamMat_uu has made the advancement [A Major Trial Of Strengh]
 [22:17:17] [Server thread/INFO]: IamMat_uu has made the advancement [Sneak 100]
 [22:17:25] [Server thread/INFO]: IamMay_ has made the advancement [A Major Trial Of Strengh]
+[22:19:10] [Server thread/INFO]: [IamMat_uu: Teleported IamMay_ to IamMat_uu]
+[22:20:56] [Server thread/INFO]: [IamMat_uu: Teleported IamMay_ to IamMat_uu]
+[22:21:16] [Server thread/INFO]: [IamMat_uu: Teleported IamMay_ to IamMat_uu]
+[22:21:41] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[22:21:53] [Server thread/INFO]: [IamMat_uu: Teleported IamMat_uu to IamMay_]
+[22:22:55] [c2me-worker-0/WARN]: Empty or non-existent pool: minecraft:
+[22:23:02] [Server thread/INFO]: [IamMat_uu: Teleported IamMat_uu to IamMay_]
+[22:25:30] [Server thread/INFO]: IamMat_uu has made the advancement [Light as a Rabbit]
+[22:25:56] [Server thread/INFO]: [IamMat_uu: Teleported IamMat_uu to IamMay_]
+[22:27:20] [Server thread/INFO]: IamMay_ lost connection: Disconnected
+[22:27:20] [Server thread/INFO]: IamMay_ left the game
+[22:28:25] [Server thread/INFO]: IamMat_uu lost connection: Disconnected
+[22:28:25] [Server thread/INFO]: IamMat_uu left the game
+[22:28:31] [Server thread/INFO]: Stopping server
+[22:28:31] [Server thread/INFO]: Saving players
+[22:28:31] [Server thread/INFO]: Saving worlds
+[22:28:31] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[22:28:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:28:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:28:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:28:32] [Server thread/INFO]: [Surveyor] Saving server data...
+[22:28:32] [Server thread/INFO]: [Surveyor] Finished saving data for minecraft:overworld | cleaned 4 terrain regions, 2 structure regions, 0 landmarks
+[22:28:32] [Server thread/INFO]: [Surveyor] Finished saving server data.
+[22:28:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:28:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:28:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:28:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:28:32] [C2ME Storage #3/INFO]: Storage thread Thread[#56,C2ME Storage #3,5,main] stopped
+[22:28:32] [C2ME Storage #2/INFO]: Storage thread Thread[#55,C2ME Storage #2,5,main] stopped
+[22:28:32] [C2ME Storage #1/INFO]: Storage thread Thread[#54,C2ME Storage #1,5,main] stopped
+[22:28:32] [C2ME Storage #6/INFO]: Storage thread Thread[#61,C2ME Storage #6,5,main] stopped
+[22:28:32] [C2ME Storage #5/INFO]: Storage thread Thread[#60,C2ME Storage #5,5,main] stopped
+[22:28:32] [C2ME Storage #4/INFO]: Storage thread Thread[#59,C2ME Storage #4,5,main] stopped
+[22:28:32] [C2ME Storage #9/INFO]: Storage thread Thread[#65,C2ME Storage #9,5,main] stopped
+[22:28:32] [C2ME Storage #8/INFO]: Storage thread Thread[#64,C2ME Storage #8,5,main] stopped
+[22:28:32] [C2ME Storage #7/INFO]: Storage thread Thread[#63,C2ME Storage #7,5,main] stopped
+[22:28:32] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[22:28:32] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml

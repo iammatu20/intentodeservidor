@@ -32,6 +32,7 @@
   "minecraft:adventure/distant_lands": {
     "criteria": {
       "minecraft:cold_ocean": "2025-02-11 22:38:42 +0000",
+      "clifftree:sparse_forest": "2025-02-17 22:20:07 +0000",
       "minecraft:forest": "2025-02-11 22:24:27 +0000",
       "minecraft:taiga": "2025-02-11 22:25:12 +0000",
       "clifftree:cold_caves": "2025-02-11 22:49:06 +0000",
@@ -44,11 +45,15 @@
       "minecraft:frozen_ocean": "2025-02-17 22:01:58 +0000",
       "minecraft:frozen_river": "2025-02-11 22:24:02 +0000",
       "minecraft:deep_frozen_ocean": "2025-02-17 22:05:59 +0000",
+      "minecraft:cherry_grove": "2025-02-17 22:23:05 +0000",
+      "minecraft:sunflower_plains": "2025-02-17 22:21:16 +0000",
       "minecraft:meadow": "2025-02-11 22:32:19 +0000",
       "clifftree:cold_river": "2025-02-11 22:26:09 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-02-11 22:37:07 +0000",
+      "clifftree:caves": "2025-02-17 22:17:44 +0000",
       "minecraft:snowy_beach": "2025-02-11 22:22:01 +0000",
-      "clifftree:gravelly_beach": "2025-02-11 23:07:58 +0000"
+      "clifftree:gravelly_beach": "2025-02-11 23:07:58 +0000",
+      "minecraft:plains": "2025-02-17 22:21:36 +0000"
     },
     "done": false
   },
@@ -57,6 +62,7 @@
       "minecraft:cold_ocean": "2025-02-11 22:38:42 +0000",
       "minecraft:beach": "2025-02-11 22:22:01 +0000",
       "minecraft:old_growth_pine_taiga": "2025-02-11 22:37:07 +0000",
+      "clifftree:sparse_forest": "2025-02-17 22:20:07 +0000",
       "minecraft:forest": "2025-02-11 22:24:27 +0000",
       "minecraft:taiga": "2025-02-11 22:25:12 +0000",
       "minecraft:river": "2025-02-11 22:24:02 +0000",
@@ -66,8 +72,11 @@
       "minecraft:snowy_taiga": "2025-02-11 22:23:00 +0000",
       "clifftree:snowy_old_growth_taiga": "2025-02-11 23:03:31 +0000",
       "minecraft:frozen_ocean": "2025-02-17 22:01:58 +0000",
+      "minecraft:cherry_grove": "2025-02-17 22:23:05 +0000",
+      "minecraft:sunflower_plains": "2025-02-17 22:21:16 +0000",
       "minecraft:meadow": "2025-02-11 22:32:19 +0000",
-      "clifftree:caves": "2025-02-11 22:49:06 +0000"
+      "clifftree:caves": "2025-02-11 22:49:06 +0000",
+      "minecraft:plains": "2025-02-17 22:21:36 +0000"
     },
     "done": false
   },
@@ -614,7 +623,8 @@
       "minecraft:skeleton": "2025-02-11 22:50:13 +0000",
       "minecraft:stray": "2025-02-17 22:12:45 +0000",
       "minecraft:spider": "2025-02-11 22:56:02 +0000",
-      "minecraft:zombie": "2025-02-11 22:32:54 +0000"
+      "minecraft:zombie": "2025-02-11 22:32:54 +0000",
+      "minecraft:zombie_villager": "2025-02-17 22:23:33 +0000"
     },
     "done": false
   },
@@ -1818,9 +1828,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-02-17 22:23:39 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_shrine": {
+    "criteria": {
+      "shrine_combat": "2025-02-17 22:17:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2025-02-17 22:07:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:pale": "2025-02-17 22:16:47 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-02-17 22:24:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2025-02-17 22:21:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2025-02-17 22:21:59 +0000"
     },
     "done": true
   },
@@ -1830,9 +1882,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2025-02-17 22:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-17 22:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-17 22:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2025-02-17 22:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-02-17 22:25:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-02-17 22:22:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/plains": {
+    "criteria": {
+      "requirement": "2025-02-17 22:21:16 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/decorations/white_sleeping_bag": {
     "criteria": {
       "has_white_wool": "2025-02-17 22:07:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-17 22:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-02-17 22:25:01 +0000"
     },
     "done": true
   },
@@ -1842,9 +1972,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2025-02-17 22:21:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2025-02-17 22:10:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:biome/cherry_grove": {
+    "criteria": {
+      "requirement": "2025-02-17 22:23:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-02-17 22:16:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-02-17 22:17:12 +0000"
     },
     "done": true
   },
@@ -1872,6 +2044,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2025-02-17 22:21:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2025-02-17 22:07:47 +0000"
@@ -1881,6 +2059,12 @@
   "travelersbackpack:recipes/misc/gold_smithing": {
     "criteria": {
       "has_gold": "2025-02-17 22:11:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-02-17 22:24:52 +0000"
     },
     "done": true
   },
