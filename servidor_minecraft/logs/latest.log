@@ -1,6 +1,6 @@
-[22:21:25] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
-[22:21:25] [ForkJoinPool-1-worker-2/WARN]: Mod mr_vanilla_refresh uses the version 1.4.24c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '24c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[22:21:25] [main/INFO]: Loading 151 mods:
+[21:58:20] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[21:58:22] [ForkJoinPool-1-worker-1/WARN]: Mod mr_vanilla_refresh uses the version 1.4.24c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '24c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:58:24] [main/INFO]: Loading 151 mods:
 	- antique_atlas 2.9.17+1.21
 	   \-- surveyor 0.6.23+1.21
 	        \-- folk_sisby_kaleido-config 0.3.1+1.3.2
@@ -168,249 +168,180 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[22:21:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/intentodeservidor/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:21:26] [main/INFO]: Compatibility level set to JAVA_21
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[22:21:26] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[22:21:26] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
-[22:21:26] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[22:21:26] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[22:21:26] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:21:26] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
-[22:21:26] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[22:21:26] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 5 override(s) found
-[22:21:26] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
-[22:21:26] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
-[22:21:26] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
-[22:21:26] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
-[22:21:26] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
-[22:21:26] [main/INFO]: Applying Nashorn fix
-[22:21:26] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
-[22:21:27] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[22:21:27] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[22:21:27] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
-[22:21:27] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[22:21:27] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[22:21:27] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[22:21:27] [main/WARN]: Error loading class: net/minecraft/class_8673 (java.lang.ClassNotFoundException: net/minecraft/class_8673)
-[22:21:27] [main/WARN]: @Mixin target net.minecraft.class_8673 was not found owo.mixins.json:ClientCommonNetworkHandlerAccessor from mod owo
-[22:21:27] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[22:21:27] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[22:21:28] [main/INFO]: ThreadTweak config initialized
-[22:21:30] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[22:21:30] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[22:21:30] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[22:21:30] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[22:21:34] [main/INFO]: Vanilla bootstrap took 5490 milliseconds
-[22:21:34] [main/INFO]: Loading Collective version 7.84.
-[22:21:34] [main/INFO]: Constructing common components for easyanvils:main
-[22:21:34] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[22:21:34] [main/INFO]: Constructing common components for easymagic:main
-[22:21:34] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[22:21:34] [main/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[22:21:34] [main/INFO]: Registering C2S receiver with id ftbultimine:key_pressed_packet
-[22:21:34] [main/INFO]: Registering C2S receiver with id ftbultimine:mode_changed_packet
-[22:21:34] [main/INFO]: Registering C2S receiver with id ftbultimine:sync_config_to_server_packet
-[22:21:34] [main/INFO]: FTB Ranks detected, listening for ranks events
-[22:21:34] [main/INFO]: Loading Noisium.
-[22:21:34] [main/INFO]: chyz: who would've thought that if you don't summon satan things go better. you can put that in wisdom if you like
-[22:21:34] [main/INFO]: Constructing common components for puzzleslib:main
-[22:21:34] [main/INFO]: [Quad] Initialising the Quad mod power! >:P
-[22:21:34] [main/INFO]: [Quad] loaded default fuel values
-[22:21:34] [main/INFO]: [Quad] loaded quad fuel tags
-[22:21:34] [main/INFO]: [Surveyor] is not a map mod
-[22:21:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[22:21:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[22:21:34] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[22:21:34] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[22:21:35] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:21:37] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
-[22:21:37] [Worker-Main-1/INFO]: Loading command nodes...
-[22:21:37] [Worker-Main-1/INFO]: Loaded 1805 command nodes
-[22:21:38] [main/INFO]: Loaded 1473 recipes
-[22:21:38] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/decorations/chest: No key criteria in MapLike[{}]
-[22:21:38] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/redstone/trapped_chest: No key criteria in MapLike[{}]
-[22:21:38] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[22:21:38] [main/INFO]: Loaded 1785 advancements
-[22:21:38] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: vanilla_refresh:jagged_peaks
-[22:21:38] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: vanilla_refresh:breaks_into/any
-[22:21:38] [main/INFO]: [Quad] loaded default fuel values
-[22:21:38] [main/INFO]: [Quad] loaded quad fuel tags
-[22:21:38] [main/INFO]: Applied 0 biome modifications to 0 of 90 new biomes in 5.139 ms
-[22:21:38] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[22:21:38] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[22:21:38] [Server thread/INFO]: [Quad] found block replacement file: lolmcv:block_replacement/chests.json
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
-[22:21:38] [Server thread/INFO]: [Quad] found block replacement file: lolmcv:block_replacement/trapped_chests.json
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:spruce_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:spruce_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:spruce_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:spruce_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:acacia_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:dark_oak_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:dark_oak_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:crimson_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:crimson_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:warped_chest}]]
-[22:21:38] [Server thread/INFO]: [Quad] cached original fuel map with count of: 266
-[22:21:38] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[22:21:38] [Server thread/INFO]: Loading properties
-[22:21:38] [Server thread/INFO]: Default game type: SURVIVAL
-[22:21:38] [Server thread/INFO]: Generating keypair
-[22:21:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:21:39] [Server thread/INFO]: Using epoll channel type
-[22:21:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:21:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:21:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:21:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:21:39] [Server thread/INFO]: Preparing level "world"
-[22:21:39] [Server thread/INFO]: Enforcing safe world random access
-[22:21:39] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
-[22:21:39] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
-[22:21:39] [Server thread/INFO]: Changing watch distance to 10
-[22:21:39] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[22:21:40] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
-[22:21:40] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
-[22:21:41] [Server thread/INFO]: Changing watch distance to 10
-[22:21:41] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
-[22:21:41] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
-[22:21:45] [Server thread/INFO]: Changing watch distance to 10
-[22:21:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:21:46] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[22:21:46] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[22:21:46] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[22:21:46] [c2me-worker-0/INFO]: Preparing spawn area: 30%
-[22:21:47] [c2me-worker-0/INFO]: Preparing spawn area: 97%
-[22:21:47] [Server thread/INFO]: Time elapsed: 2129 ms
-[22:21:47] [Server thread/INFO]: Done (8.480s)! For help, type "help"
-[22:21:47] [Server thread/WARN]: Dedicated server took 23.068 seconds to load
-[22:21:47] [Server thread/INFO]: Loaded 3 ranks
-[22:21:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[22:21:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[22:21:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[22:21:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[22:21:47] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[22:21:58] [Server thread/INFO]: IamMat_uu[/127.238.121.253:47463] logged in with entity id 80 at (276.5, 63.0, 91.5)
-[22:21:58] [Server thread/INFO]: Loading config from file...
-[22:21:58] [Server thread/INFO]: IamMat_uu joined the game
-[22:21:59] [Server thread/INFO]: IamMay_[/127.109.31.235:50809] logged in with entity id 100 at (264.5, 63.0, 102.5)
-[22:21:59] [Server thread/INFO]: Loading config from file...
-[22:21:59] [Server thread/INFO]: IamMay_ joined the game
-[22:22:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
-[22:23:17] [Server thread/INFO]: IamMat_uu has made the advancement [Stone Age]
-[22:23:23] [Server thread/INFO]: IamMay_ has made the advancement [Stone Age]
-[22:23:26] [Server thread/INFO]: IamMat_uu has made the advancement [Getting an Upgrade]
-[22:23:32] [Server thread/INFO]: IamMay_ has made the advancement [Getting an Upgrade]
-[22:28:47] [Server thread/INFO]: IamMat_uu has made the advancement [Acquire Hardware]
-[22:29:01] [Server thread/INFO]: IamMat_uu has made the advancement [Isn't It Iron Pick]
-[22:31:01] [Server thread/INFO]: IamMat_uu has made the advancement [Not Today, Thank You]
-[22:31:03] [Server thread/INFO]: IamMat_uu has made the advancement [Monster Hunter]
-[22:31:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[22:32:54] [Server thread/INFO]: IamMay_ has made the advancement [Monster Hunter]
-[22:36:02] [Server thread/INFO]: IamMay_ has made the advancement [Sweet Dreams]
-[22:36:05] [Server thread/INFO]: IamMat_uu has made the advancement [Sweet Dreams]
-[22:37:17] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[22:39:00] [Server thread/INFO]: IamMat_uu has made the advancement [Suit Up]
-[22:39:16] [Server thread/INFO]: IamMay_ has made the advancement [Suit Up]
-[22:41:17] [Server thread/INFO]: IamMay_ fell from a high place
-[22:41:46] [Server thread/INFO]: Made IamMat_uu a server operator
-[22:41:48] [Server thread/INFO]: IamMay_ drowned while trying to escape Drowned
-[22:41:56] [Server thread/INFO]: [IamMat_uu: Teleported IamMay_ to IamMat_uu]
-[22:42:15] [Server thread/INFO]: IamMay_ has made the advancement [Acquire Hardware]
-[22:44:55] [Server thread/INFO]: IamMay_ has made the advancement [Isn't It Iron Pick]
-[22:45:07] [Server thread/INFO]: IamMat_uu has made the advancement [Diamonds!]
-[22:45:12] [Server thread/INFO]: IamMat_uu fell from a high place
-[22:45:18] [Server thread/INFO]: [IamMat_uu: Teleported IamMat_uu to IamMay_]
-[22:45:27] [Server thread/INFO]: IamMay_ has made the advancement [Diamonds!]
-[22:46:16] [Server thread/INFO]: IamMat_uu has made the advancement [The Cutest Predator]
-[22:48:42] [Server thread/INFO]: Villager class_1646['Weaponsmith'/7136, l='ServerLevel[world]', x=580.30, y=63.00, z=-157.70] died, message: 'Weaponsmith was slain by Zombie'
-[22:50:07] [Server thread/INFO]: IamMay_ has made the advancement [Not Today, Thank You]
-[22:58:41] [Server thread/INFO]: [IamMat_uu: Teleported IamMay_ to IamMat_uu]
-[23:03:40] [c2me-worker-0/WARN]: Empty or non-existent pool: minecraft:
-[23:05:49] [Server thread/INFO]: Villager class_1646['Weaponsmith'/14876, l='ServerLevel[world]', x=620.19, y=70.75, z=-178.30] died, message: 'Weaponsmith was slain by IamMat_uu'
-[23:05:58] [Server thread/INFO]: Villager class_1646['Unemployed'/14875, l='ServerLevel[world]', x=618.70, y=70.00, z=-188.30] died, message: 'Unemployed was slain by IamMat_uu'
-[23:06:26] [Server thread/INFO]: IamMat_uu has made the advancement [Take Aim]
-[23:06:51] [Server thread/INFO]: [IamMat_uu: Teleported IamMat_uu to IamMay_]
-[23:09:05] [Server thread/INFO]: IamMay_ lost connection: Disconnected
-[23:09:05] [Server thread/INFO]: IamMay_ left the game
-[23:11:31] [Server thread/INFO]: Villager class_1646['Unemployed'/17455, l='ServerLevel[world]', x=365.72, y=67.00, z=-456.37] died, message: 'Unemployed suffocated in a wall'
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
-[23:11:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
-[23:11:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
-[23:11:56] [Server thread/INFO]: IamMat_uu lost connection: Disconnected
-[23:11:56] [Server thread/INFO]: IamMat_uu left the game
-[23:12:30] [Server thread/INFO]: Stopping server
-[23:12:30] [Server thread/INFO]: Saving players
-[23:12:30] [Server thread/INFO]: Saving worlds
-[23:12:30] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[23:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:12:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:12:30] [Server thread/INFO]: [Surveyor] Saving server data...
-[23:12:30] [Server thread/INFO]: [Surveyor] Finished saving data for minecraft:overworld | cleaned 4 terrain regions, 2 structure regions, 0 landmarks
-[23:12:30] [Server thread/INFO]: [Surveyor] Finished saving server data.
-[23:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:12:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:12:30] [C2ME Storage #3/INFO]: Storage thread Thread[#55,C2ME Storage #3,5,main] stopped
-[23:12:30] [C2ME Storage #2/INFO]: Storage thread Thread[#54,C2ME Storage #2,5,main] stopped
-[23:12:30] [C2ME Storage #1/INFO]: Storage thread Thread[#53,C2ME Storage #1,5,main] stopped
-[23:12:30] [C2ME Storage #6/INFO]: Storage thread Thread[#60,C2ME Storage #6,5,main] stopped
-[23:12:30] [C2ME Storage #5/INFO]: Storage thread Thread[#59,C2ME Storage #5,5,main] stopped
-[23:12:30] [C2ME Storage #4/INFO]: Storage thread Thread[#58,C2ME Storage #4,5,main] stopped
-[23:12:30] [C2ME Storage #9/INFO]: Storage thread Thread[#64,C2ME Storage #9,5,main] stopped
-[23:12:30] [C2ME Storage #8/INFO]: Storage thread Thread[#63,C2ME Storage #8,5,main] stopped
-[23:12:30] [C2ME Storage #7/INFO]: Storage thread Thread[#62,C2ME Storage #7,5,main] stopped
-[23:12:30] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
-[23:12:30] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[21:58:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/intentodeservidor/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:58:25] [main/INFO]: Compatibility level set to JAVA_21
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:58:26] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:58:26] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
+[21:58:26] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:58:26] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:58:26] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:58:26] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[21:58:26] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[21:58:26] [main/INFO]: Loaded configuration file for ModernFix 5.19.3+mc1.21.1: 54 options available, 5 override(s) found
+[21:58:26] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[21:58:26] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[21:58:26] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[21:58:26] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[21:58:26] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [threadtweak]) to 'false'
+[21:58:26] [main/INFO]: Applying Nashorn fix
+[21:58:26] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[21:58:27] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[21:58:27] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[21:58:27] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
+[21:58:27] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[21:58:27] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[21:58:27] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[21:58:27] [main/WARN]: Error loading class: net/minecraft/class_8673 (java.lang.ClassNotFoundException: net/minecraft/class_8673)
+[21:58:27] [main/WARN]: @Mixin target net.minecraft.class_8673 was not found owo.mixins.json:ClientCommonNetworkHandlerAccessor from mod owo
+[21:58:27] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[21:58:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:58:28] [main/INFO]: ThreadTweak config initialized
+[21:58:32] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:58:32] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[21:58:32] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[21:58:32] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[21:58:36] [main/INFO]: Vanilla bootstrap took 7468 milliseconds
+[21:58:37] [main/INFO]: Loading Collective version 7.84.
+[21:58:37] [main/INFO]: Constructing common components for easyanvils:main
+[21:58:37] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[21:58:37] [main/INFO]: Constructing common components for easymagic:main
+[21:58:37] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[21:58:37] [main/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[21:58:37] [main/INFO]: Registering C2S receiver with id ftbultimine:key_pressed_packet
+[21:58:37] [main/INFO]: Registering C2S receiver with id ftbultimine:mode_changed_packet
+[21:58:37] [main/INFO]: Registering C2S receiver with id ftbultimine:sync_config_to_server_packet
+[21:58:37] [main/INFO]: FTB Ranks detected, listening for ranks events
+[21:58:37] [main/INFO]: Loading Noisium.
+[21:58:37] [main/INFO]: idwtialsimmoedm - I didn't want to install a library so I made my own enchantment descriptions mod
+[21:58:37] [main/INFO]: Constructing common components for puzzleslib:main
+[21:58:37] [main/INFO]: [Quad] Initialising the Quad mod power! >:P
+[21:58:37] [main/INFO]: [Quad] loaded default fuel values
+[21:58:37] [main/INFO]: [Quad] loaded quad fuel tags
+[21:58:37] [main/INFO]: [Surveyor] is not a map mod
+[21:58:38] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[21:58:38] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[21:58:38] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[21:58:38] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[21:58:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:58:40] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
+[21:58:41] [Worker-Main-3/INFO]: Loading command nodes...
+[21:58:41] [Worker-Main-3/INFO]: Loaded 1805 command nodes
+[21:58:41] [main/INFO]: Loaded 1473 recipes
+[21:58:42] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/decorations/chest: No key criteria in MapLike[{}]
+[21:58:42] [main/ERROR]: Parsing error loading custom advancement minecraft:recipes/redstone/trapped_chest: No key criteria in MapLike[{}]
+[21:58:42] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[21:58:42] [main/INFO]: Loaded 1785 advancements
+[21:58:42] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: vanilla_refresh:breaks_into/any
+[21:58:42] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: vanilla_refresh:jagged_peaks
+[21:58:42] [main/INFO]: [Quad] loaded default fuel values
+[21:58:42] [main/INFO]: [Quad] loaded quad fuel tags
+[21:58:42] [main/INFO]: Applied 0 biome modifications to 0 of 90 new biomes in 1.429 ms
+[21:58:42] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[21:58:42] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[21:58:42] [Server thread/INFO]: [Quad] found block replacement file: lolmcv:block_replacement/chests.json
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): null
+[21:58:42] [Server thread/INFO]: [Quad] found block replacement file: lolmcv:block_replacement/trapped_chests.json
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:spruce_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:spruce_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:spruce_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:spruce_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:jungle_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:acacia_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:dark_oak_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:dark_oak_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:crimson_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:crimson_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] The Structure array (keep an eye on this): [BlockReplacement[targets=[Block{minecraft:chest}], replacement=Block{lolmcv:warped_chest}]]
+[21:58:42] [Server thread/INFO]: [Quad] cached original fuel map with count of: 266
+[21:58:42] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:58:42] [Server thread/INFO]: Loading properties
+[21:58:42] [Server thread/INFO]: Default game type: SURVIVAL
+[21:58:42] [Server thread/INFO]: Generating keypair
+[21:58:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:58:42] [Server thread/INFO]: Using epoll channel type
+[21:58:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:58:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:58:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:58:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:58:42] [Server thread/INFO]: Preparing level "world"
+[21:58:43] [Server thread/INFO]: Enforcing safe world random access
+[21:58:43] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
+[21:58:43] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
+[21:58:44] [Server thread/INFO]: Changing watch distance to 10
+[21:58:44] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[21:58:44] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
+[21:58:44] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
+[21:58:46] [Server thread/INFO]: Changing watch distance to 10
+[21:58:46] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
+[21:58:46] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
+[21:58:46] [Server thread/INFO]: Changing watch distance to 10
+[21:58:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:58:48] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:48] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:48] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:48] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:48] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:49] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:49] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:50] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:50] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:51] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:58:53] [minecraft_overworld - Light/INFO]: Preparing spawn area: 0%
+[21:58:53] [minecraft_overworld - Light/INFO]: Preparing spawn area: 0%
+[21:58:53] [Server thread/INFO]: Preparing spawn area: 4%
+[21:58:54] [Server thread/INFO]: Time elapsed: 7402 ms
+[21:58:54] [Server thread/INFO]: Done (11.197s)! For help, type "help"
+[21:58:54] [Server thread/WARN]: Dedicated server took 40.466 seconds to load
+[21:58:54] [Server thread/INFO]: Loaded 3 ranks
+[21:58:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[21:58:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[21:58:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[21:58:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[21:58:54] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[21:59:21] [Server thread/INFO]: IamMat_uu[/127.252.84.113:51633] logged in with entity id 30 at (360.7171735789801, 63.0, -425.59582189923583)
+[21:59:21] [Server thread/INFO]: Loading config from file...
+[21:59:21] [Server thread/INFO]: IamMat_uu joined the game
+[21:59:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[22:01:24] [Server thread/INFO]: IamMay_[/127.109.31.235:58695] logged in with entity id 678 at (544.7314702697755, 62.9375, -161.4779041500845)
+[22:01:24] [Server thread/INFO]: Loading config from file...
+[22:01:24] [Server thread/INFO]: IamMay_ joined the game
+[22:02:33] [Server thread/INFO]: [IamMat_uu: Teleported IamMay_ to IamMat_uu]
+[22:03:59] [Server thread/INFO]: [IamMat_uu: Teleported IamMay_ to IamMat_uu]
+[22:08:09] [Server thread/INFO]: [IamMat_uu: Teleported IamMay_ to IamMat_uu]
